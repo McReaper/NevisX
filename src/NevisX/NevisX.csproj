@@ -1,12 +1,11 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net7.0</TargetFramework>
     <Authors>Philip/Scobalula</Authors>
     <Version>0.0.1.0</Version>
-    <Description>Black Ops III In-Game Asset Editor
-</Description>
+    <Description>Black Ops III In-Game Asset Editor</Description>
     <ApplicationIcon>AppIcon.ico</ApplicationIcon>
     <EnableNETAnalyzers>false</EnableNETAnalyzers>
     <AnalysisLevel>none</AnalysisLevel>
@@ -22,7 +21,9 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\PhilLibX\src\PhilLibX\PhilLibX\PhilLibX.csproj" />
+    <ProjectReference Include="..\..\..\BorkLib\src\cs\Borks.IO.ProcessInterop\Borks.IO.ProcessInterop.csproj" />
+    <ProjectReference Include="..\..\..\BorkLib\src\cs\Borks.IO\Borks.IO.csproj" />
+    <ProjectReference Include="..\..\..\BorkLib\src\cs\Borks\Borks.csproj" />
   </ItemGroup>
 
 </Project>

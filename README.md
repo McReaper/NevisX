@@ -4,6 +4,11 @@ NevisX is a tool for editing weapons while in-game. Unlike the previous Nevis, N
 
 NevisX makes it easy to fine tune your stats such as recoil, state timers, damage, and ammo across your weapons.
 
+# How to build locally
+
+1. Clone bork librairies: https://github.com/Scobalula/BorkLib
+2. Place them in the same folder where this repository has been cloned
+
 # Features
 
 * Syncs directly with your GDTs, so you can use APE instead of Nevis' previous clunky UI. 
